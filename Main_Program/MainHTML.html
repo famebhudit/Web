@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Eradicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" width="100" height="140">
+            <ul>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#Calculate">Calculate</a></li>
+            </ul>
+            <button class="btn"><img src="images/icon.png" width="80" height="70">Checking Power</button>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Let's Decide</h1>
+                <p>an ideal solar rooftop for you.</p>
+            </div>
+            <div class="content1">
+                <h2>Quick</h2> <!-- Corrected from h1 to h2 -->
+                <p>with a few questions we can find the best solar rooftop that will suit you.</p> <!-- Corrected from p1 to p -->
+            </div>
+            <div class="content2">
+                <h3>Pioneer</h3> <!-- Corrected from h1 to h2 -->
+                <p>we are the first to provide you a way to choose Solar Rooftop effectively with recommendation.</p> <!-- Corrected from p1 to p -->
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container2">
+            <div class="content_P2">
+                <h4>Discover your ideal & reliable Solar Rooftop quickly</h4>
+                <p>-Remember a time when a bill worth quarter of your salary arrives at your door?</p>
+                <br>
+                <p>-Reminding you of the fast-paced life nowadays.</p>
+                <br>
+                <p>-That's why we offer "personalized recommendations" to solve your monthly energy expense within 1 minute just for you</p>
+            </div>
+        </div>
+    </section>
+    <section id="Calculate">
+        <div class="form-container">
+            <h5>Calculate Here</h5>
+            <input type="number" name="power" id="power" placeholder="Enter Power Here">
+            <input type="number" name="budget" id="budget" placeholder="Enter Budget Here">
+            <input type="number" name="dper" id="dper" placeholder="Enter Dper Here">
+            <button class="btn" onclick="validateAndAlert()">Search</button>
+          </div>
+          
+    </section>
+
+    <footer>
+        <h5>Contact Us</h5>
+        <p>Have a question?</p>
+        <p>Let's decide!</p>
+        <p>Email: email@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
